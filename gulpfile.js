@@ -1,18 +1,20 @@
-const gulp = require('gulp');
+const { watch, src, dest, parallel } = require('gulp');
 const gulpTypescript = require('gulp-typescript');
 
-gulp.task('default', function () {
-	return gulp
-		.src('*/**/*.ts')
+const compileTypescript = () => {
+	return src(['**/*.ts', '!**/*.d.ts', '!**/test.ts'])
 		.pipe(
 			gulpTypescript({
 				noImplicitAny: true,
 			})
 		)
 		.pipe(
-			gulp.dest(function (file) {
-				console.log(file.base);
+			dest(function (file) {
 				return file.base;
 			})
 		);
-});
+};
+
+watch(['**/*.ts', '!**/*.d.ts']).on('change', compileTypescript);
+
+exports.default = parallel(compileTypescript);
