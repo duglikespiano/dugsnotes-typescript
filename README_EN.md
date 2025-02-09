@@ -30,3 +30,5 @@
   </br>
 
 ### 3. Contents
+
+1. string, number, boolean

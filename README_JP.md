@@ -30,3 +30,5 @@
   </br>
 
 ### 3. 内容
+
+1. string, number, boolean
