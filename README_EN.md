@@ -36,3 +36,4 @@
 3. array type
 4. tuple type
 5. enum type
+6. union type
