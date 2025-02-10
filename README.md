@@ -33,3 +33,4 @@
 
 1. string, number, boolean
 2. object type
+3. array type
