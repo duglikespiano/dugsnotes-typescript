@@ -32,3 +32,4 @@
 ### 3. 内容
 
 1. string, number, boolean
+2. object type
