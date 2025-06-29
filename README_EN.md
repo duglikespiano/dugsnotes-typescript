@@ -37,3 +37,5 @@
 4. tuple type
 5. enum type
 6. union type
+7. types for function
+8. any type
