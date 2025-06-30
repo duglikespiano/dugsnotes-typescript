@@ -39,3 +39,4 @@
 6. union type
 7. types for function
 8. any type
+9. union type2
