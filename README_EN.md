@@ -41,3 +41,4 @@
 8. any type
 9. union type2
 10. array type2
+11. type alias
