@@ -40,3 +40,4 @@
 7. types for function
 8. any type
 9. union type2
+10. array type2
