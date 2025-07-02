@@ -42,3 +42,4 @@
 9. union type2
 10. array type2
 11. type alias
+12. never type
