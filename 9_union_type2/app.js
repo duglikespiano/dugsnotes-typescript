@@ -1,5 +1,5 @@
-var character = 36;
-character = 'kim';
-character = true;
-character = {};
-character = [];
+var character2 = 36;
+character2 = 'kim';
+character2 = true;
+character2 = {};
+character2 = [];

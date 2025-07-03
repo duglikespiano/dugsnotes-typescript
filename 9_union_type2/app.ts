@@ -1,6 +1,6 @@
-let character: any = 36;
+let character2: any = 36;
 
-character = 'kim';
-character = true;
-character = {};
-character = [];
+character2 = 'kim';
+character2 = true;
+character2 = {};
+character2 = [];

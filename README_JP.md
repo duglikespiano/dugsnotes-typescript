@@ -43,3 +43,4 @@
 10. array type2
 11. type alias
 12. never type
+13. unknown type
