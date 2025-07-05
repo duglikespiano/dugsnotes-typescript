@@ -44,3 +44,4 @@
 11. type alias
 12. never type
 13. unknown type
+14. optional value
