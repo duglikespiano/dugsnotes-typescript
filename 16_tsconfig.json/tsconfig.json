@@ -1,0 +1,30 @@
+{
+	// Specifies the root files and the compiler options
+	"compilerOptions": {
+		// "target" key defines the JavaScript version output.
+		// Value "ES2015" means compile to ES2015 syntax.
+		"target": "ES2015",
+
+		// "module" key defines the module system.
+		// Value "commonjs" makes Node.js compatible modules.
+		"module": "commonjs",
+
+		// "outDir" key specifies the output folder for compiled JavaScript.
+		"outDir": "./dist",
+
+		// "strict" key enables all strict type-checking options.
+		"strict": true,
+
+		// "esModuleInterop" key enables compatibility with CommonJS modules.
+		"esModuleInterop": true,
+
+		// "forceConsistentCasingInFileNames" ensures file name casing consistency.
+		"forceConsistentCasingInFileNames": true
+	},
+
+	// "include" key specifies files or folders to compile.
+	"include": ["src/**/*"],
+
+	// "exclude" key specifies files or folders to ignore.
+	"exclude": ["node_modules", "dist"]
+}
