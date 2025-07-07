@@ -47,3 +47,4 @@
 14. optional value
 15. nullish coalescing
 16. tsconfig.json
+17. intersection type
