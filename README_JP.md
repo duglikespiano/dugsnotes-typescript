@@ -48,3 +48,4 @@
 15. nullish coalescing
 16. tsconfig.json
 17. intersection type
+18. instanceof
