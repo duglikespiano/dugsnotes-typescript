@@ -49,3 +49,4 @@
 16. tsconfig.json
 17. intersection type
 18. instanceof
+19. satisfies
