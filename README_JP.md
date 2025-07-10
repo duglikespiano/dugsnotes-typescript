@@ -50,3 +50,4 @@
 17. intersection type
 18. instanceof
 19. satisfies
+20. as const
