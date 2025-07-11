@@ -51,3 +51,4 @@
 18. instanceof
 19. satisfies
 20. as const
+21. record
